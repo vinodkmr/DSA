@@ -1,0 +1,16 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¯ªÓ…üÿÿÿÿ8šˆ‰ó¸1
+X	java:S125"<This block of commented-out lines of code should be removed.(Þ‹×õ8ì‹‰ó¸1
+W
+java:S1854"5Remove this useless assignment to local variable "c".(ð×«•ùÿÿÿÿ8î‹‰ó¸1
+H
+java:S1481"&Remove this unused "c" local variable.(ð×«•ùÿÿÿÿ8ò‹‰ó¸1
+L	java:S106"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8ô‹‰ó¸1
+L	java:S106"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8õ‹‰ó¸1
+L	java:S106"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8ö‹‰ó¸1
+G	java:S1065"+Replace this use of System.out by a logger.(Áß‡Ü8ÿ‹‰ó¸1
+L	java:S1069"+Replace this use of System.out by a logger.(­ËÖþÿÿÿÿ8ÿ‹‰ó¸1
+W
+java:S1144"5Remove this unused private "validParantheses" method.(‘·ôÁøÿÿÿÿ8Œ‰ó¸1
+U
+java:S1144#"8Remove this unused private "longestCommonPrefix" method.(»ÃÙú8Œ‰ó¸1

@@ -1,0 +1,73 @@
+
+r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–§úÿÿÿÿ8±ì¹Ã³1
+d
+java:S2259º"AA "NullPointerException" could be thrown; "out" is nullable here.(¼ÑÂÿûÿÿÿÿ8Éª»Ã³1
+U
+java:S2589¬"8Remove this expression which always evaluates to "false"(Âì™8¾ì¹Ã³1
+Z
+java:S2589 "7Remove this expression which always evaluates to "true"(Í™éûÿÿÿÿ8¾ì¹Ã³1
+
+java:S1130"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(àûëß8Àì¹Ã³1
+
+java:S1130"rRemove the declaration of thrown exception 'org.jpos.iso.ISOException', as it cannot be thrown from method's body.(àûëß8Àì¹Ã³1
+X	java:S125"<This block of commented-out lines of code should be removed.(¿§ñ8Àì¹Ã³1
+]	java:S125"<This block of commented-out lines of code should be removed.(¯Õëóùÿÿÿÿ8Àì¹Ã³1
+L	java:S106)"+Replace this use of System.out by a logger.(Şî­¿ıÿÿÿÿ8ü‚‰ó¸1
+c
+java:S1075-"ARefactor your code to get this URI from a customizable parameter.(©¶¬²ùÿÿÿÿ8Âì¹Ã³1
+G	java:S106/"+Replace this use of System.out by a logger.(«‹Îõ8Âì¹Ã³1
+L	java:S1060"+Replace this use of System.out by a logger.(Ä¿ßúÿÿÿÿ8Âì¹Ã³1
+G	java:S106@"+Replace this use of System.out by a logger.(×öö8Ãì¹Ã³1
+L	java:S106A"+Replace this use of System.out by a logger.(şŒª±úÿÿÿÿ8Äì¹Ã³1
+G	java:S106H"+Replace this use of System.out by a logger.(şÆ‹…8Äì¹Ã³1
+G	java:S106I"+Replace this use of System.out by a logger.(ö®º8Äì¹Ã³1
+L	java:S106R"+Replace this use of System.out by a logger.(Ëéÿ˜ùÿÿÿÿ8Æì¹Ã³1
+L	java:S106V"+Replace this use of System.out by a logger.(„ŞÃÅúÿÿÿÿ8Æì¹Ã³1
+L	java:S106W"+Replace this use of System.out by a logger.(Ü›“ ûÿÿÿÿ8¨„‰ó¸1
+G	java:S106Y"+Replace this use of System.out by a logger.(Ú›¶›8Æì¹Ã³1
+F	java:S106Z"+Replace this use of System.out by a logger.(µíÍ^8Æì¹Ã³1
+L	java:S106k"+Replace this use of System.out by a logger.(Ç¡µ“üÿÿÿÿ8Çì¹Ã³1
+]	java:S125l"<This block of commented-out lines of code should be removed.(–Û›¯úÿÿÿÿ8Èì¹Ã³1
+^
+java:S1075t"ARefactor your code to get this URI from a customizable parameter.(¸¸•—8Èì¹Ã³1
+Y	java:S899u"=Do something with the "boolean" value returned by "renameTo".(óœá8Èì¹Ã³1
+L	java:S106|"+Replace this use of System.out by a logger.(€óó€üÿÿÿÿ8Èì¹Ã³1
+G	java:S106~"+Replace this use of System.out by a logger.(²¨ç÷8Èì¹Ã³1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Äèôùÿÿÿÿ8Èì¹Ã³1
+M	java:S106‚"+Replace this use of System.out by a logger.(Ş€òœÿÿÿÿÿ8Éì¹Ã³1
+H	java:S106‡"+Replace this use of System.out by a logger.(Áß‡Ü8Ò„‰ó¸1
+M	java:S106‹"+Replace this use of System.out by a logger.(ìÙ‹úÿÿÿÿ8Éì¹Ã³1
+M	java:S106"+Replace this use of System.out by a logger.(º™û®øÿÿÿÿ8Éì¹Ã³1
+p
+java:S4276–"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(´ë¼÷8Êì¹Ã³1
+G	java:S106˜"+Replace this use of System.out by a logger.(Äş!8Êì¹Ã³1
+p	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÚæøÿÿÿÿ8Êì¹Ã³1
+H	java:S106¡"+Replace this use of System.out by a logger.(çíÒ 8Êì¹Ã³1
+H	java:S106£"+Replace this use of System.out by a logger.(±Íœ‚8Êì¹Ã³1
+p	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ãùïùÿÿÿÿ8Êì¹Ã³1
+M	java:S106­"+Replace this use of System.out by a logger.(ˆ¤°˜ûÿÿÿÿ8Êì¹Ã³1
+H	java:S106»"+Replace this use of System.out by a logger.(·ò³½8×ª»Ã³1
+P
+java:S1144,".Remove this unused private "sporgTest" method.(£¡‰Üüÿÿÿÿ8™…‰ó¸1
+M
+java:S11444"+Remove this unused private "fxTest" method.(ÅÙäÿÿÿÿÿ8Ëì¹Ã³1
+L
+java:S1144E"/Remove this unused private "decodeCavv" method.(Ù‰Ç¨8Ëì¹Ã³1
+Q
+java:S1144s"/Remove this unused private "renameFile" method.(Ï¾”œşÿÿÿÿ8Ëì¹Ã³1
+O
+java:S1144x"3Remove this unused private "formatDateTest" method.(»¨»N8Ëì¹Ã³1
+T
+java:S1144"1Remove this unused private "StrIndexTest" method.(‘Äèôùÿÿÿÿ8Ëì¹Ã³1
+P
+java:S1144…"-Remove this unused private "charTest" method.(ë§ÆÁùÿÿÿÿ8Ëì¹Ã³1
+U
+java:S1144Š"2Remove this unused private "dateFormatter" method.(Ø³ÔŒùÿÿÿÿ8Ëì¹Ã³1
+S
+java:S1144"5Remove this unused private "bitOperatorCheck" method.(˜²à•8Ëì¹Ã³1
+Q
+java:S1144’"3Remove this unused private "functionalTest" method.(¢‘§Æ8Ëì¹Ã³1
+O
+java:S1144›",Remove this unused private "ORCheck" method.(ÉÚæøÿÿÿÿ8Ëì¹Ã³1
+S
+java:S1144§"0Remove this unused private "ORUltaCheck" method.(¨ãùïùÿÿÿÿ8Ëì¹Ã³1

@@ -1,0 +1,21 @@
+
+_
+java:S2259q"BA "NullPointerException" could be thrown; "slow" is nullable here.(æ¡¤õ8İŠœ’1
+T
+java:S2589["7Remove this expression which always evaluates to "true"(Ûá…8İŠœ’1
+1
+java:S3626!"Remove this redundant jump.(ûÁİ…
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(è•Èº
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+1
+java:S3626="Remove this redundant jump.(ûÁİ…
+6
+java:S3626D"Remove this redundant jump.(ùê¨“üÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(¨©Óõıÿÿÿÿ
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(¡îáÿÿÿÿÿ
+2
+java:S3626œ"Remove this redundant jump.(ûÁİ…
+9
+java:S3626®"Remove this redundant jump.(ûÁİ…8±–·’1
+N
+java:S1128",Remove this unused import 'java.util.Stack'.(ŞÈ†üúÿÿÿÿ8ãŠœ’1

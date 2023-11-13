@@ -1,0 +1,15 @@
+
+
+java:S1488F"]Immediately return this expression instead of assigning it to the temporary variable "bNode".(çÉß¥ÿÿÿÿÿ8àóşÖº1
+~
+java:S1488m"\Immediately return this expression instead of assigning it to the temporary variable "left".(î¡˜Çúÿÿÿÿ8áóşÖº1
+
+java:S1488p"]Immediately return this expression instead of assigning it to the temporary variable "right".(ã‘Ÿÿÿÿÿÿ8áóşÖº1
+z
+java:S1488¾"]Immediately return this expression instead of assigning it to the temporary variable "right".(“ˆÄh8áóşÖº1
+€
+java:S1488Ë"]Immediately return this expression instead of assigning it to the temporary variable "right".(ï¹ôäıÿÿÿÿ8Ÿº ×º1
+e
+java:S2259¤"BA "NullPointerException" could be thrown; "temp" is nullable here.(É½ï¸úÿÿÿÿ8÷óşÖº1
+M	java:S106±"+Replace this use of System.out by a logger.(óÆ©•øÿÿÿÿ8ƒôşÖº1
+M	java:S106½"+Replace this use of System.out by a logger.(šÍÊíùÿÿÿÿ8„ôşÖº1

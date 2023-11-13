@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE isopackager SYSTEM "genericpackager.dtd">
+<isopackager>
+   <!--<isofield
+            id="0"
+            length="4"
+            name="MESSAGE TYPE INDICATOR"
+            class="org.jpos.iso.IFA_NUMERIC"/>-->
+    <isofield
+            id="1"
+            length="16"
+            name="BIT MAP"
+            class="org.jpos.iso.IFA_BITMAP"/>
+
+     <isofield
+     id="60"
+     length="103"
+     name="MARKET SPECIFIC DATA WITH ADDL AUTH DATA"
+     class="org.jpos.iso.IFE_LLLCHAR"/>
+
+
+   <!-- <isofieldpackager
+            id="20"
+            length="103"
+            name="NATIONAL USE DATA"
+            class="org.jpos.iso.IFA_LLLCHAR"
+
+            emitBitmap="false"
+            firstField="0"
+            packager="org.jpos.iso.packager.GenericSubFieldPackager">
+        <isofield
+                id="0"
+                length="2"
+                name="Primary ID"
+                class="org.jpos.iso.IFE_CHAR"/>
+
+        <isofield
+                id="1"
+                length="3"
+                name="Secondary ID"
+                class="org.jpos.iso.IFE_CHAR"/>
+        <isofield
+                id="2"
+                length="4"
+                name="BitMap"
+                class="org.jpos.iso.IFB_BITMAP"/>
+
+        <isofield
+                id="3"
+                length="20"
+                name="Seller ID"
+                class="org.jpos.iso.IFE_CHAR"/>
+
+        <isofield
+                id="4"
+                length="40"
+                name="Seller E-mail"
+
+                class="org.jpos.iso.IFE_LLCHAR"/>
+        <isofield
+                id="5"
+                length="20"
+                name="Seller Phone"
+                class="org.jpos.iso.IFE_CHAR"/>
+    </isofieldpackager>-->
+
+</isopackager>

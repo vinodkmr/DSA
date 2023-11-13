@@ -1,0 +1,25 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¶ù³8Ÿ ¨­1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úæßƒ8Ÿ ¨­1
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¾Áìûÿÿÿÿ8Ÿ ¨­1
+W
+java:S18545"5Remove this useless assignment to local variable "x".(ÈŠ‰ûıÿÿÿÿ8¦ ¨­1
+R
+java:S1854"5Remove this useless assignment to local variable "p".(§‹’8¦ ¨­1
+T
+java:S1854"7Remove this useless assignment to local variable "hex".(¥‹î´8¦ ¨­1
+E
+java:S1481"(Remove this unused "hex" local variable.(¥‹î´8§ ¨­1
+C
+java:S1481"&Remove this unused "p" local variable.(§‹’8¨ ¨­1
+W	java:S125"<This block of commented-out lines of code should be removed.(áË‚Y8¨ ¨­1
+L	java:S106"+Replace this use of System.out by a logger.(‹µÔÖÿÿÿÿÿ8© ¨­1
+G	java:S106"+Replace this use of System.out by a logger.(À‘»Û8© ¨­1
+X	java:S125""<This block of commented-out lines of code should be removed.(Ë¡å8© ¨­1
+L	java:S106("+Replace this use of System.out by a logger.(³ã“¤ıÿÿÿÿ8© ¨­1
+H
+java:S14815"&Remove this unused "x" local variable.(ÈŠ‰ûıÿÿÿÿ8ª ¨­1
+L	java:S1066"+Replace this use of System.out by a logger.(„±æèüÿÿÿÿ8ª ¨­1
+G	java:S1067"+Replace this use of System.out by a logger.(íËƒò8ª ¨­1
+G	java:S106:"+Replace this use of System.out by a logger.(Ùµ¸¤8ª ¨­1
+X	java:S1258"<This block of commented-out lines of code should be removed.(ö”Ö¬8ª ¨­1

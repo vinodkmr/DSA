@@ -1,0 +1,27 @@
+
+`	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+c
+java:S2259S"HA "NullPointerException" could be thrown; "parentPath" is nullable here.(”¶†×þÿÿÿÿ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø
+V	java:S125"<This block of commented-out lines of code should be removed.(½Ïÿüøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÍÎÉ 
+@	java:S106""+Replace this use of System.out by a logger.(¼ ž˜
+@	java:S106$"+Replace this use of System.err by a logger.(¡Í
+E
+java:S1172)"/Remove this unused method parameter "noOfDays".(×Ì®¡
+@	java:S106,"+Replace this use of System.out by a logger.(²âþÞ
+<
+java:S1075."&Remove this hard-coded path-delimiter.(ü±¾
+E	java:S1068"+Replace this use of System.out by a logger.(ì¢È®ùÿÿÿÿ
+@	java:S106<"+Replace this use of System.out by a logger.(Ñº·è
+E	java:S106N"+Replace this use of System.out by a logger.(å«Öãþÿÿÿÿ
+@	java:S106P"+Replace this use of System.out by a logger.(æûñœ
+@	java:S106T"+Replace this use of System.out by a logger.(÷Ýÿ½
+@	java:S106W"+Replace this use of System.out by a logger.(ƒŒø†
+E	java:S106Y"+Replace this use of System.out by a logger.(ûôû¸ÿÿÿÿÿ
+W
+java:S1144)"ARemove this unused private "deleteAllFilesOlderThanXDays" method.(×Ì®¡
+R
+java:S1144I"7Remove this unused private "deleteParentFolder" method.(Á¡ìéúÿÿÿÿ

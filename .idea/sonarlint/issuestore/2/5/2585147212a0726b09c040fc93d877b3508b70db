@@ -1,0 +1,10 @@
+
+€
+java:S1488V"^Immediately return this expression instead of assigning it to the temporary variable "stArgs".(ãÈ“şüÿÿÿÿ8¡‰ó¸1
+
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ôô¡Óüÿÿÿÿ8Ï‰ó¸1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÁ›Üıÿÿÿÿ8Ó‰ó¸1
+G	java:S106"+Replace this use of System.out by a logger.(Ñ›òÔ8Ô‰ó¸1
+L	java:S106""+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ş‰ó¸1
+L	java:S106D"+Replace this use of System.out by a logger.(£‰Ğ­ÿÿÿÿÿ8ï‰ó¸1
+L	java:S106T"+Replace this use of System.out by a logger.(Ü²“ÿùÿÿÿÿ8ø‰ó¸1

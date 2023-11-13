@@ -1,0 +1,9 @@
+
+1
+java:S3626"Remove this redundant jump.(ûÁÝ…
+N
+java:S1854"8Remove this useless assignment to local variable "temp".(œ¯¥³
+N	java:S106"9Replace this use of System.out or System.err by a logger.(è©ª±
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(‹¹‹—ýÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(è•Èº
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ

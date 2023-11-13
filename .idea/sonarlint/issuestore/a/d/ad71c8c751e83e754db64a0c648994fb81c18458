@@ -1,0 +1,35 @@
+
+z
+java:S1192d"]Define a constant instead of duplicating this literal "AgAAAGQDrmEx5r0AmbHTg0AAAAA=" 3 times.(ËÕðË8× “¡¯1
+m	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äí†™8× “¡¯1
+n	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¿’µ8× “¡¯1
+X
+java:S1854"6Remove this useless assignment to local variable "is".(ë¨í¼úÿÿÿÿ8â “¡¯1
+I
+java:S1481"'Remove this unused "is" local variable.(ë¨í¼úÿÿÿÿ8ã “¡¯1
+]	java:S125"<This block of commented-out lines of code should be removed.(…¯èþÿÿÿÿ8ã “¡¯1
+G	java:S106"+Replace this use of System.out by a logger.(­Øøž8è “¡¯1
+]	java:S125,"<This block of commented-out lines of code should be removed.(®³¡Àúÿÿÿÿ8ê “¡¯1
+]	java:S125/"<This block of commented-out lines of code should be removed.(Û§èÖùÿÿÿÿ8ë “¡¯1
+X	java:S125E"<This block of commented-out lines of code should be removed.(ó£Š¥8ì “¡¯1
+L	java:S106H"+Replace this use of System.out by a logger.(óÅ¾’þÿÿÿÿ8ì “¡¯1
+L	java:S106I"+Replace this use of System.out by a logger.(ÞÔçÏøÿÿÿÿ8ì “¡¯1
+]	java:S125M"<This block of commented-out lines of code should be removed.(›Ìé›øÿÿÿÿ8ì “¡¯1
+X	java:S125P"<This block of commented-out lines of code should be removed.(âû¦’8í “¡¯1
+X	java:S125T"<This block of commented-out lines of code should be removed.(ŠßÝð8í “¡¯1
+X	java:S125V"<This block of commented-out lines of code should be removed.(ÿöÍú8í “¡¯1
+[
+java:S1854h"9Remove this useless assignment to local variable "pack1".(ëÀàŠûÿÿÿÿ8í “¡¯1
+L
+java:S1481h"*Remove this unused "pack1" local variable.(ëÀàŠûÿÿÿÿ8ï “¡¯1
+]	java:S125m"<This block of commented-out lines of code should be removed.(æ¾ÞÀúÿÿÿÿ8ï “¡¯1
+H	java:S106‰"+Replace this use of System.out by a logger.(Œîµì8ð “¡¯1
+H	java:S106‹"+Replace this use of System.out by a logger.(Þñ†8ñ “¡¯1
+^	java:S125›"<This block of commented-out lines of code should be removed.(€÷£‘üÿÿÿÿ8ò “¡¯1
+H	java:S106¤"+Replace this use of System.out by a logger.(±¤ª¹8ò “¡¯1
+
+java:S1130©"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(üÄ® ýÿÿÿÿ8ò “¡¯1
+Q
+java:S1144Z"/Remove this unused private "buildDE123" method.(•ðšþûÿÿÿÿ8ó “¡¯1
+Q
+java:S1144š".Remove this unused private "buildDE43" method.(ÿù…Òûÿÿÿÿ8ó “¡¯1
