@@ -1,16 +1,43 @@
 
-z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¯ªÓ…üÿÿÿÿ8šˆ‰ó¸1
-X	java:S125"<This block of commented-out lines of code should be removed.(Þ‹×õ8ì‹‰ó¸1
+z	java:S135>"YReduce the total number of break and continue statements in this loop to use at most one.(¯ªÓ…üÿÿÿÿ8é€¹§Ê1
+X	java:S125"<This block of commented-out lines of code should be removed.(Þ‹×õ8º‚¹§Ê1
+A
+java:S1659"Declare "n" on a separate line.(²ÃêÌûÿÿÿÿ8»‚¹§Ê1
+<
+java:S1659"Declare "j" on a separate line.(¢ù‡…8»‚¹§Ê1
+G	java:S106!"+Replace this use of System.out by a logger.( èÀ¿8»‚¹§Ê1
+Q
+java:S2864-"4Iterate over the "entrySet" instead of the "keySet".(¾â¬¬8¼‚¹§Ê1
+L	java:S1061"+Replace this use of System.out by a logger.(Üã×Âÿÿÿÿÿ8¼‚¹§Ê1
+G	java:S1062"+Replace this use of System.out by a logger.(÷ ì²8½‚¹§Ê1
+G
+java:S11726"*Remove this unused method parameter "ele".(²ˆ¦†8½‚¹§Ê1
+X	java:S1258"<This block of commented-out lines of code should be removed.(ˆý™ñ8½‚¹§Ê1
 W
-java:S1854"5Remove this useless assignment to local variable "c".(ð×«•ùÿÿÿÿ8î‹‰ó¸1
+java:S1854@"5Remove this useless assignment to local variable "c".(ð×«•ùÿÿÿÿ8½‚¹§Ê1
 H
-java:S1481"&Remove this unused "c" local variable.(ð×«•ùÿÿÿÿ8ò‹‰ó¸1
-L	java:S106"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8ô‹‰ó¸1
-L	java:S106"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8õ‹‰ó¸1
-L	java:S106"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8ö‹‰ó¸1
-G	java:S1065"+Replace this use of System.out by a logger.(Áß‡Ü8ÿ‹‰ó¸1
-L	java:S1069"+Replace this use of System.out by a logger.(­ËÖþÿÿÿÿ8ÿ‹‰ó¸1
+java:S1481@"&Remove this unused "c" local variable.(ð×«•ùÿÿÿÿ8¾‚¹§Ê1
+L	java:S106B"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8¾‚¹§Ê1
+L	java:S106G"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8¾‚¹§Ê1
+L	java:S106L"+Replace this use of System.out by a logger.(ûãÁùùÿÿÿÿ8¿‚¹§Ê1
+G	java:S106d"+Replace this use of System.out by a logger.(Áß‡Ü8À‚¹§Ê1
+L	java:S106h"+Replace this use of System.out by a logger.(­ËÖþÿÿÿÿ8Á‚¹§Ê1
+G	java:S106y"+Replace this use of System.out by a logger.(†š·8Â‚¹§Ê1
+L	java:S106}"+Replace this use of System.out by a logger.(Ï±¨þÿÿÿÿÿ8Â‚¹§Ê1
+G	java:S106"+Replace this use of System.out by a logger.(‡ÃÌñ8Â‚¹§Ê1
+H	java:S106"+Replace this use of System.out by a logger.(®Û¯•8Â‚¹§Ê1
+M	java:S106‚"+Replace this use of System.out by a logger.(Ú½¸Ñùÿÿÿÿ8¸ Ä§Ê1
+V
+java:S1128"4Remove this unused import 'com.core.java.test.Test'.(ñ÷éøÿÿÿÿÿ8ë€º§Ê1
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ8ë€º§Ê1
+a
+java:S1128"?Remove this unused import 'com.core.java.test.CoreJava.twoSum'.(‚ôÃÒýÿÿÿÿ8ë€º§Ê1
+X
+java:S1144"6Remove this unused private "mergedSortedArray" method.(¶»Ñ‚ûÿÿÿÿ8Ã‚¹§Ê1
+Q
+java:S11446"4Remove this unused private "deleteANumInArr" method.(²ˆ¦†8Ã‚¹§Ê1
 W
-java:S1144"5Remove this unused private "validParantheses" method.(‘·ôÁøÿÿÿÿ8Œ‰ó¸1
+java:S1144<"5Remove this unused private "validParantheses" method.(‘·ôÁøÿÿÿÿ8Ã‚¹§Ê1
 U
-java:S1144#"8Remove this unused private "longestCommonPrefix" method.(»ÃÙú8Œ‰ó¸1
+java:S1144R"8Remove this unused private "longestCommonPrefix" method.(»ÃÙú8Ã‚¹§Ê1

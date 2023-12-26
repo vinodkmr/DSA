@@ -7,18 +7,32 @@ import org.jpos.iso.ISOUtil;
 import org.jpos.iso.packager.GenericPackager;
 
 import java.io.File;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URL;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.TimeZone;
+import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class CoreJava {
 
-    public static void main(String[] args) throws ParseException, ISOException {
+    public static void main(String[] args) throws ParseException, ISOException, ExecutionException, InterruptedException, TimeoutException, IOException {
 //        ORCheck();
 //        ORUltaCheck();
 //        functionalTest();
@@ -34,7 +48,82 @@ public class CoreJava {
 //        decodeCavv();
 //        fxTest();
 //        sporgTest();
-        subStrtest();
+//        subStrtest();
+//        httpClientAsyncTest();
+//        Thread.currentThread().sleep(100000);
+//        comparatorTest();
+//        streamTest();
+        stringTest();
+    }
+
+    private static void stringTest() {
+        String str = "Sou of Dia";
+        String[] s = str.split(" ");
+        System.out.printf(Arrays.toString(s));
+        for (String st : s){
+            System.out.println(st);
+        }
+
+        AtomicInteger atomicInteger = new AtomicInteger();
+        atomicInteger.set(10);
+        int i = atomicInteger.incrementAndGet();
+        System.out.println(i);
+        System.out.println(atomicInteger.get());
+        atomicInteger.compareAndSet(11,12);
+        System.out.println(atomicInteger.get());
+    }
+
+    private static void streamTest() {
+        /*Employee e1 = new Employee(Profile.DEV, 100);
+        Employee e2 = new Employee(Profile.CEO, 100);*/
+       // List<Employee> employeeList = Arrays.asList(e1, e2);
+   /*     Employee.collect = employeeList.stream().collect(Collectors.groupingBy(Employee::getSalary));
+        System.out.println(Employee.collect);
+        List<String> stationeryList = Arrays.asList("Pen", "Eraser", "Note Book", "Pen", "Pencil", "Stapler", "Note Book", "Pencil");
+        System.out.println(stationeryList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting())));
+        int[] intArr = {10,20,30,-1,-2};
+        OptionalInt max = Arrays.stream(intArr).max();*/
+//        System.out.println(max.orElse(-1));
+
+    }
+
+ /*   private static void comparatorTest() {
+        List<Employee> list = Arrays.asList(new Employee(Profile.HR, 100),
+                new Employee(Profile.HR, 1100),
+                new Employee(Profile.DEV, 200));
+        list.sort((o1, o2) -> {
+            int diff = o1.getProfile().value - o2.getProfile().value;
+            if (diff != 0) return diff;
+            return o2.getSalary() - o1.getSalary();
+        });
+        System.out.println(list);
+    }*/
+
+    private static void httpClientAsyncTest() throws IOException, ExecutionException, InterruptedException, TimeoutException {
+
+        URL url = new URL("https://google.com");
+        System.out.println(url.getHost()+url.getPort());
+        HttpURLConnection huc = (HttpURLConnection) url.openConnection();
+
+        int responseCode = huc.getResponseCode();
+        System.out.println(responseCode);
+
+
+        HttpClient httpClient = HttpClient.newBuilder()
+                .version(HttpClient.Version.HTTP_2)
+                .connectTimeout(Duration.ofSeconds(2))
+                .build();
+
+        HttpRequest request = HttpRequest.newBuilder()
+                .GET()
+                .uri(URI.create("http://localhost:8095/settlementservice/api/v1/jobs/settlement/visa"))
+                .build();
+
+
+        CompletableFuture<HttpResponse<String>> response = httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString());
+        HttpResponse<String> res = response.get(10, TimeUnit.MINUTES);
+        System.out.println(res.body());
+        System.out.println("success async");
     }
 
     private static void subStrtest() {
@@ -140,7 +229,8 @@ public class CoreJava {
     }
 
     private static void bitOperatorCheck() {
-        System.out.println(10 >>> 1);
+        System.out.println(10/2);
+        System.out.println(10 >> 1);
     }
 
     private static void functionalTest() {
@@ -188,5 +278,104 @@ public class CoreJava {
         }
         return nums;
     }
+
+  /*  public void inheritanceTest(){
+        ArrayList<A> list = new ArrayList<>();
+        list.add(new B());
+        list.add(new C());
+        for (A a : list){
+            a.X();
+            a.Y();
+        }
+    }*/
+}
+
+interface  A{ void X();}
+class  B implements  A{
+    public void X() {}
+}
+
+class  C extends  B{
+    public void Y(){};
+}
+
+class Employee{
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "year=" + year +
+                ", salary=" + salary +
+                ", id=" + id +
+                '}';
+    }
+
+    public static Map<Integer, List<Employee>> collect;
+    public Profile getProfile() {
+        return profile;
+    }
+
+    public void setProfile(Profile profile) {
+        this.profile = profile;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    private Profile profile;
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    private int year;
+    private int salary;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private int id;
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    public Employee(int salary, int id, int year) {
+        this.salary = salary;
+        this.id = id;
+        this.year = year;
+    }
+
+}
+
+enum Profile{
+    HR(1),
+    CEO(10),
+    DEV(2);
+
+    public int value;
+    Profile(int value) {
+        this.value = value;
+    }
+
 }
 

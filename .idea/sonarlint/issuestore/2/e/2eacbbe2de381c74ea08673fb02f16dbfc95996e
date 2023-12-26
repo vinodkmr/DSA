@@ -1,4 +1,4 @@
 
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(è•Èº
-S	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
-S	java:S106:"9Replace this use of System.out or System.err by a logger.(‹èÏ­úÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(è•Èº
+E	java:S106#"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(‹èÏ­úÿÿÿÿ

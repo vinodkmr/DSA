@@ -1,73 +1,122 @@
 
-r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–§úÿÿÿÿ8±ì¹Ã³1
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–§úÿÿÿÿ8Š‚¬‹È1
+q
+java:S1104¸"SMake collect a static final constant or non-public and provide accessors if needed.(ãÉ¦Ø8‚¬‹È1
+t
+java:S1104÷"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ8‚¬‹È1
+K
+java:S1444¸"-Make this "public static collect" field final(ãÉ¦Ø8‚¬‹È1
 d
-java:S2259º"AA "NullPointerException" could be thrown; "out" is nullable here.(¼ÑÂÿûÿÿÿÿ8Éª»Ã³1
+java:S2259”"AA "NullPointerException" could be thrown; "out" is nullable here.(¼ÑÂÿûÿÿÿÿ8İ‚¬‹È1
 U
-java:S2589¬"8Remove this expression which always evaluates to "false"(Âì™8¾ì¹Ã³1
+java:S2589†"8Remove this expression which always evaluates to "false"(Âì™8Ş‚¬‹È1
 Z
-java:S2589 "7Remove this expression which always evaluates to "true"(Í™éûÿÿÿÿ8¾ì¹Ã³1
+java:S2589ú"7Remove this expression which always evaluates to "true"(Í™éûÿÿÿÿ8İ‚¬‹È1
 
-java:S1130"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(àûëß8Àì¹Ã³1
+java:S1130#"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(Äº¤í8â‚¬‹È1
 
-java:S1130"rRemove the declaration of thrown exception 'org.jpos.iso.ISOException', as it cannot be thrown from method's body.(àûëß8Àì¹Ã³1
-X	java:S125"<This block of commented-out lines of code should be removed.(¿§ñ8Àì¹Ã³1
-]	java:S125"<This block of commented-out lines of code should be removed.(¯Õëóùÿÿÿÿ8Àì¹Ã³1
-L	java:S106)"+Replace this use of System.out by a logger.(Şî­¿ıÿÿÿÿ8ü‚‰ó¸1
-c
-java:S1075-"ARefactor your code to get this URI from a customizable parameter.(©¶¬²ùÿÿÿÿ8Âì¹Ã³1
-G	java:S106/"+Replace this use of System.out by a logger.(«‹Îõ8Âì¹Ã³1
-L	java:S1060"+Replace this use of System.out by a logger.(Ä¿ßúÿÿÿÿ8Âì¹Ã³1
-G	java:S106@"+Replace this use of System.out by a logger.(×öö8Ãì¹Ã³1
-L	java:S106A"+Replace this use of System.out by a logger.(şŒª±úÿÿÿÿ8Äì¹Ã³1
-G	java:S106H"+Replace this use of System.out by a logger.(şÆ‹…8Äì¹Ã³1
-G	java:S106I"+Replace this use of System.out by a logger.(ö®º8Äì¹Ã³1
-L	java:S106R"+Replace this use of System.out by a logger.(Ëéÿ˜ùÿÿÿÿ8Æì¹Ã³1
-L	java:S106V"+Replace this use of System.out by a logger.(„ŞÃÅúÿÿÿÿ8Æì¹Ã³1
-L	java:S106W"+Replace this use of System.out by a logger.(Ü›“ ûÿÿÿÿ8¨„‰ó¸1
-G	java:S106Y"+Replace this use of System.out by a logger.(Ú›¶›8Æì¹Ã³1
-F	java:S106Z"+Replace this use of System.out by a logger.(µíÍ^8Æì¹Ã³1
-L	java:S106k"+Replace this use of System.out by a logger.(Ç¡µ“üÿÿÿÿ8Çì¹Ã³1
-]	java:S125l"<This block of commented-out lines of code should be removed.(–Û›¯úÿÿÿÿ8Èì¹Ã³1
-^
-java:S1075t"ARefactor your code to get this URI from a customizable parameter.(¸¸•—8Èì¹Ã³1
-Y	java:S899u"=Do something with the "boolean" value returned by "renameTo".(óœá8Èì¹Ã³1
-L	java:S106|"+Replace this use of System.out by a logger.(€óó€üÿÿÿÿ8Èì¹Ã³1
-G	java:S106~"+Replace this use of System.out by a logger.(²¨ç÷8Èì¹Ã³1
-p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Äèôùÿÿÿÿ8Èì¹Ã³1
-M	java:S106‚"+Replace this use of System.out by a logger.(Ş€òœÿÿÿÿÿ8Éì¹Ã³1
-H	java:S106‡"+Replace this use of System.out by a logger.(Áß‡Ü8Ò„‰ó¸1
-M	java:S106‹"+Replace this use of System.out by a logger.(ìÙ‹úÿÿÿÿ8Éì¹Ã³1
-M	java:S106"+Replace this use of System.out by a logger.(º™û®øÿÿÿÿ8Éì¹Ã³1
+java:S1130#"rRemove the declaration of thrown exception 'org.jpos.iso.ISOException', as it cannot be thrown from method's body.(Äº¤í8â‚¬‹È1
+
+java:S1130#"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(Äº¤í8â‚¬‹È1
+”
+java:S1130#"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Äº¤í8â‚¬‹È1
+›
+java:S1130#"~Remove the declaration of thrown exception 'java.util.concurrent.TimeoutException', as it cannot be thrown from method's body.(Äº¤í8ã‚¬‹È1
+‰
+java:S1130#"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Äº¤í8ã‚¬‹È1
+X	java:S125$"<This block of commented-out lines of code should be removed.(¿§ñ8å‚¬‹È1
+]	java:S125*"<This block of commented-out lines of code should be removed.(¯Õëóùÿÿÿÿ8æ‚¬‹È1
+G	java:S106>"+Replace this use of System.out by a logger.(â™İƒ8è‚¬‹È1
+L	java:S106@"+Replace this use of System.out by a logger.(¼÷Èõşÿÿÿÿ8é‚¬‹È1
+L	java:S106F"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8ë‚¬‹È1
+L	java:S106G"+Replace this use of System.out by a logger.(½æ÷Ÿşÿÿÿÿ8ë‚¬‹È1
+L	java:S106I"+Replace this use of System.out by a logger.(½æ÷Ÿşÿÿÿÿ8ì‚¬‹È1
+]	java:S125M"<This block of commented-out lines of code should be removed.(‚‡Üõşÿÿÿÿ8ğ‚¬‹È1
+X	java:S125O"<This block of commented-out lines of code should be removed.(ºœ¥³8÷‚¬‹È1
+]	java:S125V"<This block of commented-out lines of code should be removed.(ë××Ğÿÿÿÿÿ8÷‚¬‹È1
+]	java:S125Z"<This block of commented-out lines of code should be removed.(óğ¥ùÿÿÿÿ8ú‚¬‹È1
+L	java:S106i"+Replace this use of System.out by a logger.(¤œŞ•üÿÿÿÿ8ş‚¬‹È1
+G	java:S106m"+Replace this use of System.out by a logger.(Ø•Å×8‚ƒ¬‹È1
+G	java:S106}"+Replace this use of System.out by a logger.(ó†×Ä8…ƒ¬‹È1
+L	java:S106~"+Replace this use of System.out by a logger.(£³Şˆıÿÿÿÿ8‡ƒ¬‹È1
+M	java:S106‚"+Replace this use of System.out by a logger.(Şî­¿ıÿÿÿÿ8ˆƒ¬‹È1
+d
+java:S1075†"ARefactor your code to get this URI from a customizable parameter.(©¶¬²ùÿÿÿÿ8Šƒ¬‹È1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(«‹Îõ8Šƒ¬‹È1
+M	java:S106‰"+Replace this use of System.out by a logger.(Ä¿ßúÿÿÿÿ8‹ƒ¬‹È1
+H	java:S106™"+Replace this use of System.out by a logger.(×öö8ƒ¬‹È1
+M	java:S106š"+Replace this use of System.out by a logger.(şŒª±úÿÿÿÿ8ƒ¬‹È1
+H	java:S106¡"+Replace this use of System.out by a logger.(şÆ‹…8ƒ¬‹È1
+H	java:S106¢"+Replace this use of System.out by a logger.(ö®º8ƒ¬‹È1
+M	java:S106«"+Replace this use of System.out by a logger.(Ëéÿ˜ùÿÿÿÿ8“ƒ¬‹È1
+M	java:S106¯"+Replace this use of System.out by a logger.(„ŞÃÅúÿÿÿÿ8”ƒ¬‹È1
+M	java:S106°"+Replace this use of System.out by a logger.(Ü›“ ûÿÿÿÿ8”ƒ¬‹È1
+H	java:S106²"+Replace this use of System.out by a logger.(Ú›¶›8•ƒ¬‹È1
+G	java:S106³"+Replace this use of System.out by a logger.(µíÍ^8—ƒ¬‹È1
+M	java:S106Ä"+Replace this use of System.out by a logger.(Ç¡µ“üÿÿÿÿ8³ƒ¬‹È1
+^	java:S125Å"<This block of commented-out lines of code should be removed.(–Û›¯úÿÿÿÿ8´ƒ¬‹È1
+_
+java:S1075Í"ARefactor your code to get this URI from a customizable parameter.(¸¸•—8µƒ¬‹È1
+Z	java:S899Î"=Do something with the "boolean" value returned by "renameTo".(óœá8¶ƒ¬‹È1
+M	java:S106Õ"+Replace this use of System.out by a logger.(€óó€üÿÿÿÿ8¸ƒ¬‹È1
+H	java:S106×"+Replace this use of System.out by a logger.(²¨ç÷8¸ƒ¬‹È1
+p	java:S100Ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Äèôùÿÿÿÿ8¸ƒ¬‹È1
+M	java:S106Û"+Replace this use of System.out by a logger.(Ş€òœÿÿÿÿÿ8¹ƒ¬‹È1
+H	java:S106à"+Replace this use of System.out by a logger.(Áß‡Ü8¹ƒ¬‹È1
+M	java:S106ä"+Replace this use of System.out by a logger.(ìÙ‹úÿÿÿÿ8ºƒ¬‹È1
+H	java:S106è"+Replace this use of System.out by a logger.(­©‰ğ8ºƒ¬‹È1
+M	java:S106é"+Replace this use of System.out by a logger.(ğ¡…Êøÿÿÿÿ8ºƒ¬‹È1
 p
-java:S4276–"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(´ë¼÷8Êì¹Ã³1
-G	java:S106˜"+Replace this use of System.out by a logger.(Äş!8Êì¹Ã³1
-p	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÚæøÿÿÿÿ8Êì¹Ã³1
-H	java:S106¡"+Replace this use of System.out by a logger.(çíÒ 8Êì¹Ã³1
-H	java:S106£"+Replace this use of System.out by a logger.(±Íœ‚8Êì¹Ã³1
-p	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ãùïùÿÿÿÿ8Êì¹Ã³1
-M	java:S106­"+Replace this use of System.out by a logger.(ˆ¤°˜ûÿÿÿÿ8Êì¹Ã³1
-H	java:S106»"+Replace this use of System.out by a logger.(·ò³½8×ª»Ã³1
-P
-java:S1144,".Remove this unused private "sporgTest" method.(£¡‰Üüÿÿÿÿ8™…‰ó¸1
-M
-java:S11444"+Remove this unused private "fxTest" method.(ÅÙäÿÿÿÿÿ8Ëì¹Ã³1
-L
-java:S1144E"/Remove this unused private "decodeCavv" method.(Ù‰Ç¨8Ëì¹Ã³1
-Q
-java:S1144s"/Remove this unused private "renameFile" method.(Ï¾”œşÿÿÿÿ8Ëì¹Ã³1
-O
-java:S1144x"3Remove this unused private "formatDateTest" method.(»¨»N8Ëì¹Ã³1
-T
-java:S1144"1Remove this unused private "StrIndexTest" method.(‘Äèôùÿÿÿÿ8Ëì¹Ã³1
-P
-java:S1144…"-Remove this unused private "charTest" method.(ë§ÆÁùÿÿÿÿ8Ëì¹Ã³1
+java:S4276ğ"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(´ë¼÷8»ƒ¬‹È1
+G	java:S106ò"+Replace this use of System.out by a logger.(Äş!8»ƒ¬‹È1
+p	java:S100õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÚæøÿÿÿÿ8¼ƒ¬‹È1
+H	java:S106û"+Replace this use of System.out by a logger.(çíÒ 8¼ƒ¬‹È1
+H	java:S106ı"+Replace this use of System.out by a logger.(±Íœ‚8¼ƒ¬‹È1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ãùïùÿÿÿÿ8¼ƒ¬‹È1
+M	java:S106‡"+Replace this use of System.out by a logger.(ˆ¤°˜ûÿÿÿÿ8½ƒ¬‹È1
+H	java:S106•"+Replace this use of System.out by a logger.(·ò³½8¾ƒ¬‹È1
+X	java:S125š"<This block of commented-out lines of code should be removed.(Íµ8¾ƒ¬‹È1
+k	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê„™Ù8¾ƒ¬‹È1
+¤
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œˆ¹ºúÿÿÿÿ8¾ƒ¬‹È1
+Ÿ
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™üÈ 8¿ƒ¬‹È1
+k	java:S100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™üÈ 8¿ƒ¬‹È1
+:
+java:S1116«"Remove this empty statement.(™üÈ 8¿ƒ¬‹È1
+F
+java:S3066÷"#Lower the visibility of this field.(‚¯¥ùÿÿÿÿ8Äƒ¬‹È1
 U
-java:S1144Š"2Remove this unused private "dateFormatter" method.(Ø³ÔŒùÿÿÿÿ8Ëì¹Ã³1
-S
-java:S1144"5Remove this unused private "bitOperatorCheck" method.(˜²à•8Ëì¹Ã³1
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8Åƒ¬‹È1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Åƒ¬‹È1
+L
+java:S1144L"/Remove this unused private "streamTest" method.(‡…çò8Æƒ¬‹È1
+U
+java:S1144f"8Remove this unused private "httpClientAsyncTest" method.(ıçÑÛ8Æƒ¬‹È1
+L
+java:S1144"/Remove this unused private "subStrtest" method.(õ˜8Æƒ¬‹È1
 Q
-java:S1144’"3Remove this unused private "functionalTest" method.(¢‘§Æ8Ëì¹Ã³1
-O
-java:S1144›",Remove this unused private "ORCheck" method.(ÉÚæøÿÿÿÿ8Ëì¹Ã³1
+java:S1144…".Remove this unused private "sporgTest" method.(£¡‰Üüÿÿÿÿ8Æƒ¬‹È1
+N
+java:S1144"+Remove this unused private "fxTest" method.(ÅÙäÿÿÿÿÿ8Æƒ¬‹È1
+M
+java:S1144"/Remove this unused private "decodeCavv" method.(Ù‰Ç¨8Æƒ¬‹È1
+R
+java:S1144Ì"/Remove this unused private "renameFile" method.(Ï¾”œşÿÿÿÿ8Æƒ¬‹È1
+P
+java:S1144Ñ"3Remove this unused private "formatDateTest" method.(»¨»N8Æƒ¬‹È1
+T
+java:S1144Ú"1Remove this unused private "StrIndexTest" method.(‘Äèôùÿÿÿÿ8Æƒ¬‹È1
+P
+java:S1144Ş"-Remove this unused private "charTest" method.(ë§ÆÁùÿÿÿÿ8Æƒ¬‹È1
+U
+java:S1144ã"2Remove this unused private "dateFormatter" method.(Ø³ÔŒùÿÿÿÿ8Æƒ¬‹È1
 S
-java:S1144§"0Remove this unused private "ORUltaCheck" method.(¨ãùïùÿÿÿÿ8Ëì¹Ã³1
+java:S1144ç"5Remove this unused private "bitOperatorCheck" method.(˜²à•8Æƒ¬‹È1
+Q
+java:S1144ì"3Remove this unused private "functionalTest" method.(¢‘§Æ8Æƒ¬‹È1
+O
+java:S1144õ",Remove this unused private "ORCheck" method.(ÉÚæøÿÿÿÿ8Æƒ¬‹È1
+S
+java:S1144"0Remove this unused private "ORUltaCheck" method.(¨ãùïùÿÿÿÿ8Æƒ¬‹È1

@@ -12,5 +12,7 @@ public class SortingTest {
         sorting.selectionSort();
         sorting.quickSort();
         sorting.mergeSort();
+        sorting.findMin();
+        sorting.binarySearchUsingRecursive();
     }
 }

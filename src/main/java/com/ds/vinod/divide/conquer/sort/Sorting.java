@@ -17,6 +17,12 @@ public class Sorting {
         }
     }
 
+    /**
+     * Keep the minIndex as first index
+     * loop the elements
+     * compare the element to minIndex element, and swap index(not element)if found lesser
+     * swap the minIndex element and ith element
+     */
     public void selectionSort() {
         int[] arr = new int[]{10, 20, 0, 2, 5, -1};
         for (int i = 0; i < arr.length - 1; i++) {
@@ -149,5 +155,48 @@ public class Sorting {
             arr[i] = random.nextInt(1000);
         }
         return arr;
+    }
+
+    public void findMin(){
+        int[] arr = getRandomIntArray();
+        System.out.println("arr to find min "+Arrays.toString(arr));
+        int min = findMin(arr, 0, arr.length - 1);
+        System.out.println("min no "+min);
+    }
+
+    private int findMin(int[] arr, int low, int high) {
+        if(low == high) return arr[low];
+        int mid = (low+high)/2;
+        int left = findMin(arr, low, mid);
+        int right = findMin(arr, mid + 1, high);
+        return Math.min(left,right);
+    }
+
+    public void binarySearchUsingRecursive(){
+        System.out.println("Binary search");
+        int[] arr = getRandomIntArray();
+        System.out.println("arr "+Arrays.toString(arr));
+        mergeSort(arr);
+        System.out.println("After sorting "+Arrays.toString(arr));
+        boolean b = binarySearchUsingRecursive(arr, 0, arr.length - 1, arr[9]);
+        System.out.println("element found? "+b);
+    }
+
+    private boolean binarySearchUsingRecursive(int[] arr, int low, int high, int element) {
+        if(low == high) {
+            if (element == arr[low]) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        int mid = (low+high)/2;
+        if(element == arr[mid]) return true;
+        if(element < mid){
+            return binarySearchUsingRecursive(arr, low, mid-1,element);
+        }else{
+            return binarySearchUsingRecursive(arr, mid+1, high,element);
+        }
     }
 }
